@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>RESH'S</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap">
+        <meta name="description" content="RESH's is a personal website of John Reshley Gonzales, currently a computer science student at Holy Angel University.">
+        <link rel="shortcut icon" href="images/RESH's-favicon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="images/RESH's-favicon.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/RESH's-favicon.png">
+        <link rel="icon" sizes="192x192" href="images/RESH's-favicon.png"> 
+    </head>
+    <body>
+        <!-- NAV BAR --> 
+            <!-- TABLET AND MOBILE NAV BAR -->
+            <nav class="nav tablet" >
+                <div class="nav-links tablet" id="nav-tablet">
+                    <a href="index.html" class="nav-link home tablet">home</a>
+                    <a href="background.html" class="nav-link tablet">background</a>
+                    <a href="awards.html" class="nav-link tablet">awards</a>
+                    <a href="projects.html" class="nav-link tablet">projects</a>
+                    <a href="contact.html" class="nav-link tablet">contact</a>
+                </div>
+
+                <a class="menu-icon" onclick="hamburger()">
+					<div>&#9776;</div>
+				</a>
+            </nav>
+        <header class="nav-bar">
+           
+
+            <div class="name" id="name"><a href="index.html">RESH'S</a></div>
+            <!-- DESKTOP NAV BAR -->
+            <nav class="nav desktop">
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link home">home</a>
+                    <a href="background.html" class="nav-link">background</a>
+                    <a href="awards.html" class="nav-link">awards</a>
+                    <a href="projects.html" class="nav-link">projects</a>
+                    <a href="contact.html" class="nav-link">contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <div style="height:60px;"></div> <!-- Space to occupy for the nav bar -->
+
+        <!-- INTRODUCTION SECTION -->
+        <section class="greetings desktop">
+            <div class="left desktop">
+                <h1 class="kumusta">kumusta!</h1>
+                <p>I'm <span class="orange-font bold">Reshley</span>, a computer<br>science student.</p>
+                <a href="https://docs.google.com/document/d/1b5MUSQNkDwAqoh5s6BWTndsbd8Gbj3tPDC_0WSUDfNY/edit?usp=sharing" target="_blank">
+                    <h4 class="download-resume">download resume</h4>
+                </a>
+            </div>
+            <div class="middle desktop">
+                <img src="images/resh_PixelArt.png" alt="pixel art of a male character">
+            </div>
+            <div class="right desktop">
+                <h2 class="introduction">-introduction-</h2> 
+                <p>Hi, I’m <span class="orange-font bold">John Reshley P. Gonzales</span>, a second-year computer science student with a unique background in both finance and tech. I took accountancy, business, and management strand during senior high school but shifted to computer science in college, giving me a solid foundation in both fields. I’m proficient in Python, Java, HTML, CSS, and skilled in tools like Google Suite, Microsoft Suite, and Canva. I approach projects with careful planning and a willingness to adapt when needed, always aiming to make thoughtful decisions. Though curious and sometimes indecisive, I embrace challenges and constantly seek new opportunities to learn and grow.
+                <p>
+            </div>
+        </section>
+
+        <section class="greetings-tablet tablet">
+            <div class="left tablet">
+                <h1 class="kumusta">kumusta!</h1>
+                <p>I'm <span class="orange-font bold">Reshley</span>, a computer science student.</p>
+                <a href="https://docs.google.com/document/d/1b5MUSQNkDwAqoh5s6BWTndsbd8Gbj3tPDC_0WSUDfNY/edit?usp=sharing" target="_blank">
+                    <h4 class="download-resume">download resume</h4>
+                </a>
+            </div>
+            <div class="middle tablet">
+                <img src="images/resh_PixelArt.png" alt="pixel art of a male character">
+            </div>
+        </section>
+ 
+        <div class="right tablet"><!-- Introduction for Tablet viewport -->
+            <h2 class="introduction">-introduction-</h2> 
+            <p>Hi, I’m <span class="orange-font bold">John Reshley P. Gonzales</span>, a second-year computer science student with a unique background in both finance and tech. I took accountancy, business, and management strand during senior high school but shifted to computer science in college, giving me a solid foundation in both fields. I’m proficient in Python, Java, HTML, CSS, and skilled in tools like Google Suite, Microsoft Suite, and Canva. I approach projects with careful planning and a willingness to adapt when needed, always aiming to make thoughtful decisions. Though curious and sometimes indecisive, I embrace challenges and constantly seek new opportunities to learn and grow.
+            <p>
+        </div>
+
+        <!-- Personal Projects -->
+        <section class="personal-projects">
+            <h2 class="section-title">
+                &lt;<span class="orange-font">personal projects</span>&gt;
+            </h2>
+
+            <div class="project-container">
+                
+                <!-- PROJECT 1 HERE -->
+                <article class="project article">
+                    <video width="90%" controls>
+                        <source src="videos/merch-order-management-system-demo.mp4" type="video/mp4">
+                        <p>Your browser does not support the video tag.</p>
+                    </video>
+                    <hr>
+                    <h4 class="project-title">Merch Order Management System</h4>
+                </article>
+
+                <!-- PROJECT 2 HERE -->
+                <article class="project article">
+                    <video width="90%" controls>
+                        <source src="videos/taxwise-freelance-tax-calculator-demo.mp4" type="video/mp4">
+                        <p>Your browser does not support the video tag.</p>
+                    </video>
+                    <hr>
+                    <h4 class="project-title">TaxWise Freelance Tax Calculator</h4>
+                </article>
+            </div>
+
+            <h2 class="section-title">
+                &lt;<span class="orange-font">personal projects</span>/&gt;
+            </h2>
+        </section>
+
+        <!-- CONTACT ME -->
+        <section class="contact-me">
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <h2 class="contact-title">CONTACT ME!</h2>
+                    
+                    <div class="input-row"> 
+                        <!-- Full Name -->
+                        <div>
+                            <input type="text" id="fullName" class="form-input" placeholder="Full Name" required>
+                        </div>
+                        <!-- Email Address -->
+                        <div>
+                            <input type="email" id="emailAddress" class="form-input" placeholder="Email Address" required>
+                        </div>
+                    </div>
+                    
+                    <div class="input-row">
+                        <!-- Email Subject -->
+                        <div>
+                            <input type="text" id="emailSubject" class="form-input" placeholder="Email Subject" required>
+                        </div>
+                        <!-- Mobile Number -->
+                        <div>
+                            <input type="tel" id="mobileNumber" class="form-input" placeholder="Mobile Number">
+                        </div>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="textarea-div">
+                        <textarea id="message" class="message-input" placeholder="Your message..." required></textarea>
+                    </div>
+
+                    <!-- Button -->
+                    <button type="submit" class="submit-button" formaction="mailto:jpgonzales.cscsoc@gmail.com">SUBMIT</button>
+              </form> 
+            </div>           
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="copyright-text">
+                <p>&copy; Copyright 2024. All rights reserved. Created by John Reshley Gonzales</p>
+            </div>
+                
+            <div class="social-media-icons">
+                <a href="https://www.facebook.com/JReshley" target="_blank">
+                  <img src="images/socmed-icons/fb-icon.svg" alt="facebook icon">
+                </a>
+                <a href="mailto:jpgonzales.cscsoc@gmail.com">
+                  <img src="images/socmed-icons/email-icon.svg" alt="email icon">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                  <img src="images/socmed-icons/ig-icon.svg" alt="instagram icon">
+                </a>
+                <a href="https://www.linkedin.com/in/reshleygonzales/" target="_blank">
+                  <img src="images/socmed-icons/linkedin-icon.svg" alt="linkedin icon">
+                </a>
+                <a href="https://github.com/JReshley" target="_blank">
+                  <img src="images/socmed-icons/github-icon.svg" alt="github icon">
+                </a>
+              </div>
+        </footer>
+       
+        <script src="script.js"></script>
+    </body>
+</html>
+

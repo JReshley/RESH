@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RESH'S</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap">
+    <meta name="description" content="RESH's is a personal website of John Reshley Gonzales, currently a computer science student at Holy Angel University.">
+    <link rel="shortcut icon" href="images/RESH's-favicon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/RESH's-favicon.png">
+  </head>
+    <body>
+        <!-- NAV BAR --> 
+            <!-- TABLET AND MOBILE NAV BAR -->
+            <nav class="nav tablet" >
+              <div class="nav-links tablet" id="nav-tablet">
+                  <a href="index.html" class="nav-link home tablet">home</a>
+                  <a href="background.html" class="nav-link tablet">background</a>
+                  <a href="awards.html" class="nav-link tablet">awards</a>
+                  <a href="projects.html" class="nav-link tablet">projects</a>
+                  <a href="contact.html" class="nav-link tablet">contact</a>
+              </div>
+
+              <a class="menu-icon" onclick="hamburger()">
+        <div>&#9776;</div>
+      </a>
+          </nav>
+      <header class="nav-bar">
+         
+
+          <div class="name" id="name"><a href="index.html">RESH'S</a></div>
+          <!-- DESKTOP NAV BAR -->
+          <nav class="nav desktop">
+              <div class="nav-links">
+                  <a href="index.html" class="nav-link home">home</a>
+                  <a href="background.html" class="nav-link">background</a>
+                  <a href="awards.html" class="nav-link">awards</a>
+                  <a href="projects.html" class="nav-link">projects</a>
+                  <a href="contact.html" class="nav-link">contact</a>
+              </div>
+          </nav>
+      </header>
+
+        <div style="height:60px;"></div> <!-- Space to occupy for the nav bar -->
+
+        <!-- Projects -->
+        <section class="projects">
+          <h2 class="section-title">
+              &lt;<span class="orange-font">projects</span>&gt;
+          </h2>
+
+          <!-- Project 1 -->
+          <div class="full-project-container"> 
+            <div class="project-column-1">
+              <video width="90%" height="auto" controls>
+                <source src="videos/merch-order-management-system-demo.mp4" type="video/mp4">
+                <p>Your browser does not support the video tag.</p>
+              </video>
+            </div>
+
+            <div class="project-column-2">
+              <h2>Merch Order Management System</h2>
+              <p>
+                This project is a terminal-based application developed in Python to manage customer orders for student council merchandise. It collects customer information, such as their name and contact details, and allows them to choose from a list of available merchandise items. The application then processes the orders and saves all the customer details, including their selected items, into a CSV file for easy tracking and future reference. The system ensures that each order is recorded accurately, helping to organize and streamline the ordering process for the council. 
+                <br><br>
+                Since the project runs entirely in the terminal, it is lightweight and simple to use, making it ideal for quick deployments during student events. Additionally, the use of CSV files allows for easy data retrieval and manipulation when reviewing sales or generating reports.
+              </p>
+            </div>
+          </div>
+          
+          <!-- Project 2 -->
+          <div class="full-project-container"> 
+            <div class="project-column-1">
+              <video width="90%" height="auto" controls>
+                <source src="videos/taxwise-freelance-tax-calculator-demo.mp4" type="video/mp4">
+                <p>Your browser does not support the video tag.</p>
+              </video>
+            </div>
+
+            <div class="project-column-2">
+              <h2>TaxWise Freelance Tax Calculator</h2>
+              <p>
+                This project is a Python-based tool designed to help freelancers calculate their taxes using three different methods: the graduated income tax rate, the 8% flat income tax rate, and the Optional Standard Deduction. 
+                <br><br>
+                Users can select their preferred method or compare all options to determine which best suits their situation. Additionally, the program includes a Frequently Asked Questions (FAQ) section, providing valuable insights and clarifications related to freelance tax-paying. 
+                <br><br>
+                By offering multiple tax calculation methods and relevant information, this tool helps freelancers minimize their tax liability and make informed decisions on the best approach for their financial situation. 
+              </p>
+            </div>
+          </div>
+
+
+          <h2 class="section-title">
+              &lt;/<span class="orange-font">projects</span>&gt;
+          </h2>
+      </section>
+
+      <!-- Skills -->
+      <section class="skills">
+          <h2 class="section-title">
+              <span style="color:white;">&lt;</span><span class="orange-font">skills</span><span style="color:white;">&gt;</span>
+          </h2>
+
+          <div class="container">
+            <img src="images/skills/python.png" alt="python logo">
+            <img src="images/skills/java.png" alt="java logo">
+            <img src="images/skills/html.png" alt="html logo">
+            <img src="images/skills/css.png" alt="css logo">
+            <img src="images/skills/google-suite.png" alt="google-suite logo">
+            <img src="images/skills/office-suite.png" alt="office-suite logo">
+            <img src="images/skills/canva.png" alt="canva logo">
+          </div>
+
+          <h2 class="section-title">
+          <span style="color:white;">&lt;/</span><span class="orange-font">skills</span><span style="color:white;">&gt;</span>
+          </h2>
+      </section>
+
+         <!-- FOOTER -->
+         <footer>
+          <div class="copyright-text">
+              <p>&copy; Copyright 2024. All rights reserved. Created by John Reshley Gonzales</p>
+          </div>
+              
+          <div class="social-media-icons">
+              <a href="https://www.facebook.com/JReshley" target="_blank">
+                <img src="images/socmed-icons/fb-icon.svg" alt="facebook icon">
+              </a>
+              <a href="mailto:jpgonzales.cscsoc@gmail.com">
+                <img src="images/socmed-icons/email-icon.svg" alt="email icon">
+              </a>
+              <a href="https://www.instagram.com" target="_blank">
+                <img src="images/socmed-icons/ig-icon.svg" alt="instagram icon">
+              </a>
+              <a href="https://www.linkedin.com/in/reshleygonzales/" target="_blank">
+                <img src="images/socmed-icons/linkedin-icon.svg" alt="linkedin icon">
+              </a>
+              <a href="https://github.com/JReshley" target="_blank">
+                <img src="images/socmed-icons/github-icon.svg" alt="github icon">
+              </a>
+            </div>
+      </footer>
+       
+      <script src="script.js"></script>
+    </body>
+</html>
+

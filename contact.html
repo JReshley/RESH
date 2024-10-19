@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RESH'S</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap">
+    <meta name="description" content="RESH's is a personal website of John Reshley Gonzales, currently a computer science student at Holy Angel University.">
+    <link rel="shortcut icon" href="images/RESH's-favicon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/RESH's-favicon.png">
+  </head>
+    <body>
+        <!-- NAV BAR --> 
+            <!-- TABLET AND MOBILE NAV BAR -->
+            <nav class="nav tablet" >
+              <div class="nav-links tablet" id="nav-tablet">
+                  <a href="index.html" class="nav-link home tablet">home</a>
+                  <a href="background.html" class="nav-link tablet">background</a>
+                  <a href="awards.html" class="nav-link tablet">awards</a>
+                  <a href="projects.html" class="nav-link tablet">projects</a>
+                  <a href="contact.html" class="nav-link tablet">contact</a>
+              </div>
+
+              <a class="menu-icon" onclick="hamburger()">
+        <div>&#9776;</div>
+      </a>
+          </nav>
+      <header class="nav-bar">
+         
+
+          <div class="name" id="name"><a href="index.html">RESH'S</a></div>
+          <!-- DESKTOP NAV BAR -->
+          <nav class="nav desktop">
+              <div class="nav-links">
+                  <a href="index.html" class="nav-link home">home</a>
+                  <a href="background.html" class="nav-link">background</a>
+                  <a href="awards.html" class="nav-link">awards</a>
+                  <a href="projects.html" class="nav-link">projects</a>
+                  <a href="contact.html" class="nav-link">contact</a>
+              </div>
+          </nav>
+      </header>
+
+        <div style="height:60px;"></div> <!-- Space to occupy for the nav bar -->
+
+         <!-- Contact -->
+         <section class="contact">
+          <h2 class="section-title">
+            &lt;<span class="orange-font">contact</span>&gt;
+          </h2>
+
+          <!-- Contact me form -->
+          <div class="contact-form-container">
+            <form class="contact-form">
+                <h2 class="contact-title">CONTACT ME!</h2>
+                
+                <div class="input-row"> 
+                    <!-- Full Name -->
+                    <div>
+                        <input type="text" id="fullName" class="form-input" placeholder="Full Name" required>
+                    </div>
+                    <!-- Email Address -->
+                    <div>
+                        <input type="email" id="emailAddress" class="form-input" placeholder="Email Address" required>
+                    </div>
+                </div>
+                
+                <div class="input-row">
+                    <!-- Email Subject -->
+                    <div>
+                        <input type="text" id="emailSubject" class="form-input" placeholder="Email Subject" required>
+                    </div>
+                    <!-- Mobile Number -->
+                    <div>
+                        <input type="tel" id="mobileNumber" class="form-input" placeholder="Mobile Number">
+                    </div>
+                </div>
+
+                <!-- Message -->
+                <div class="textarea-div">
+                    <textarea id="message" class="message-input" placeholder="Your message..." required></textarea>
+                </div>
+
+                <!-- Button -->
+                <button type="submit" class="submit-button" formaction="mailto:jpgonzales.cscsoc@gmail.com">SUBMIT</button>
+            </form> 
+          </div>
+          
+          <!-- Social Media Links -->
+          <div class="socmed-link-container">
+            <div class="socmed-link">
+              <a href="https://www.facebook.com/JReshley" target="_blank">
+                <img src="images/socmed-icons/fb-icon.svg" alt="facebook icon">
+              </a>
+              <p>https://www.facebook.com/JReshley/</p>
+            </div>
+
+            <div class="socmed-link">
+              <a href="https://www.instagram.com" target="_blank">
+                <img src="images/socmed-icons/ig-icon.svg" alt="instagram icon">
+              </a>  
+              <p>https://www.instagram.com/jreshley/</p>
+            </div>
+
+            <div class="socmed-link">
+              <a href="https://www.linkedin.com/in/reshleygonzales/" target="_blank">
+                <img src="images/socmed-icons/linkedin-icon.svg" alt="linkedin icon">
+              </a>
+              <p>https://www.linkedin.com/in/reshleygonzales/</p>
+            </div>
+            
+            <div class="socmed-link">
+              <a href="https://github.com/JReshley" target="_blank">
+                <img src="images/socmed-icons/github-icon.svg" alt="github icon">
+              </a>
+              <p>https://github.com/JReshley</p>
+            </div>
+
+            <div class="socmed-link">
+              <a href="mailto:jpgonzales.cscsoc@gmail.com">
+                <img src="images/socmed-icons/email-icon.png" alt="email icon">
+              </a>
+              <p>jpgonzales.cscsoc@gmail.com</p>
+            </div>
+          </div>
+
+          <h2 class="section-title">
+             &lt;/<span class="orange-font">contact</span>&gt;
+          </h2>
+      </section>
+
+
+        <!-- FOOTER -->
+        <footer>
+          <div class="copyright-text">
+              <p>&copy; Copyright 2024. All rights reserved. Created by John Reshley Gonzales</p>
+          </div>
+              
+          <div class="social-media-icons">
+              <a href="https://www.facebook.com/JReshley" target="_blank">
+                <img src="images/socmed-icons/fb-icon.svg" alt="facebook icon">
+              </a>
+              <a href="mailto:jpgonzales.cscsoc@gmail.com">
+                <img src="images/socmed-icons/email-icon.svg" alt="email icon">
+              </a>
+              <a href="https://www.instagram.com" target="_blank">
+                <img src="images/socmed-icons/ig-icon.svg" alt="instagram icon">
+              </a>
+              <a href="https://www.linkedin.com/in/reshleygonzales/" target="_blank">
+                <img src="images/socmed-icons/linkedin-icon.svg" alt="linkedin icon">
+              </a>
+              <a href="https://github.com/JReshley" target="_blank">
+                <img src="images/socmed-icons/github-icon.svg" alt="github icon">
+              </a>
+            </div>
+      </footer>
+       
+      <script src="script.js"></script>
+    </body>
+</html>
+
